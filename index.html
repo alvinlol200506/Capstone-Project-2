@@ -14,25 +14,36 @@
   </head>
   <body>
     <!--header-->
-    <div class="container">
-      <header class="d-flex justify-content-center py-3">
+    <div class="container" id="hero">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            class="mx-sm-4"
+            src="./public/alvin-logo.png"
+            alt="Logo Alvin"
+            style="width: 100px"
+          />
+        </a>
         <ul class="nav nav-pills">
-          <li class="nav-item px-2">
-            <button type="button" class="btn btn-outline-dark">Home</button>
+          <li class="nav-item">
+            <a href="#hero" class="btn btn-light m-1">Home</a>
           </li>
-          <li class="nav-item px-2">
-            <button type="button" class="btn btn-outline-dark">About</button>
+          <li class="nav-item">
+            <a href="#resume" class="btn btn-light m-1">Resume</a>
           </li>
-          <li class="nav-item px-2">
-            <button type="button" class="btn btn-outline-dark">
-              Portofolio
-            </button>
+          <li class="nav-item">
+            <a href="#project" class="btn btn-light m-1">Project</a>
           </li>
-          <li class="nav-item px-2">
-            <button type="button" class="btn btn-outline-dark">Service</button>
+          <li class="nav-item">
+            <a href="#additionally" class="btn btn-light m-1">Additionally</a>
           </li>
-          <li class="nav-item px-2">
-            <button type="button" class="btn btn-outline-dark">Contact</button>
+          <li class="nav-item">
+            <a href="#contact" class="btn btn-light m-1">Contact</a>
           </li>
         </ul>
       </header>
@@ -41,11 +52,11 @@
     <!--hero-->
     <div class="hero">
       <div class="container">
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-md-8 px-4 py-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-0">
             <div class="col-10 col-sm-8 col-lg-6">
               <img
-                src="./public/Alvin Standing.png"
+                src="./public/alvin-standing.jpg"
                 class="d-block mx-lg-auto img-fluid"
                 alt="Bootstrap Themes"
                 width="700"
@@ -58,10 +69,272 @@
               <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
                 Alvin
               </h1>
-              
-              </div>
+              <button type="button" class="btn btn-info">Balls</button>
+              <button type="button" class="btn btn-info">Balls</button>
+              <button type="button" class="btn btn-info">Balls</button>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!--resume-->
+    <div class="bg-light">
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom" id="resume">Resume</h2>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+        >
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Graduate</h3>
+              <p>University of Brawijaya with 4.1</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#cpu-fill"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                First Experience
+              </h3>
+              <p>
+                Dragonlike came down from dark clowdy stormy cloud then ask me
+                to make him a website.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#calendar3"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Second Kidnap
+              </h3>
+              <p>
+                Millenium academy kidnap me and ask me to help with their
+                website for their school, then they erase my memor-
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#home"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                First Big Company
+              </h3>
+              <p>
+                I'm a very experienced at Lobotomy corp. as junior website maker
+                for their landing page.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#speedometer2"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Second Big Company
+              </h3>
+              <p>
+                As the first company finishes their dark days and white night,
+                the company merged and become a library, that's where Im at the
+                library of ruina
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#toggles2"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Third Big Company
+              </h3>
+              <p>
+                Because the CEO of Library of Ruina free everyone now I work as
+                lead website manager at Limbus Company
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#geo-fill"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Highest Appreciation
+              </h3>
+              <p>
+                My mother ask me to built her a website for her small business.
+                The business explode then she kiss me (mother and son-ly).
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#tools"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                I'm inside your house
+              </h3>
+              <p>Check your closet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--project showcase-->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom" id="project">Project Showcase</h2>
+
+      <div class="container row d-flex align-items-start">
+        <img
+          class="col-6 mt-5 mb-2"
+          src="./public/superearth.jpg"
+          alt="superearth"
+        />
+        <div class="col-6 mt-5 flex-shrink-0">
+          <h1>The Super Earth</h1>
+          <p>I got traveled in time to help them built super earth</p>
+        </div>
+      </div>
+      <div class="container row d-flex align-items-start">
+        <div class="col-6 mt-5 flex-shrink-0">
+          <h1>SCP-079</h1>
+          <p>
+            Even though I'm an expert for web development, I also create some
+            hardware
+          </p>
+        </div>
+        <img
+          class="col-6 mt-5 mb-2"
+          src="./public/scp-079.png"
+          alt="superearth"
+        />
+      </div>
+      <div class="container row d-flex align-items-start">
+        <img
+          class="col-6 mt-5 mb-2"
+          src="./public/ultron.png"
+          alt="superearth"
+        />
+        <div class="col-6 mt-5 flex-shrink-0">
+          <h1>Ultron</h1>
+          <p>
+            This is the lest good project that I build, it gain sentient on its
+            own.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--additional-->
+    <div
+      class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center bg-light"
+    >
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom" id="additionally">Additional</h2>
+        <div class="list-group">
+          <a
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <div class="spinner-grow text-secondary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">I like Mentai Beef</h6>
+                <p class="mb-0 opacity-75">🤤🤤🤤🤤🤤🤤🤤🤤🤤🤤🤤🤤</p>
+              </div>
+              <small class="opacity-50 text-nowrap">now</small>
+            </div>
+          </a>
+          <a
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <div class="spinner-border text-secondary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">My type of game is indie game</h6>
+                <p class="mb-0 opacity-75">
+                  Undertale, Deltarune, Oneshot, etc.
+                </p>
+              </div>
+              <small class="opacity-50 text-nowrap">3d</small>
+            </div>
+          </a>
+          <a
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <div class="spinner-grow text-secondary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">Im in my 3 years streak without vomiting</h6>
+                <p class="mb-0 opacity-75">
+                  I'm aiming not vomiting till death.
+                </p>
+              </div>
+              <small class="opacity-50 text-nowrap">1w</small>
+            </div>
+          </a>
         </div>
       </div>
     </div>
